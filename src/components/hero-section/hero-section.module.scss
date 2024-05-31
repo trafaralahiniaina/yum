@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   color: var(--text-emphasized);
+  margin: 0px;
 }
 
 .content {
@@ -26,12 +27,13 @@
 
 .actions {
   display: flex;
-  gap: 8px;
+  column-gap: var(--space-16);
 }
 
 .heading {
   font-size: var(--heading-huge-font-size);
   line-height: var(--heading-huge-line-height);
+  margin: -0px;
 }
 
 .locationSection {
