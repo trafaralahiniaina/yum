@@ -13,7 +13,7 @@ export interface DiscoverPageProps {
 export const DiscoverPage = ({ className, foodCategories }: DiscoverPageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <Header userAuthenticated={true} />
+            <Header/>
             <BusinessTypeFilterBar />
             <Footer />
         </div>
